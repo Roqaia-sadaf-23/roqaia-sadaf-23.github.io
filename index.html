@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f9fc">
+  <meta name="description" content="Portfolio of Roqaia Sadaf, a Flutter and ASP.NET Core developer in Al Madinah, Saudi Arabia.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Roqaia Sadaf | Flutter & ASP.NET Core Developer">
+  <meta property="og:description" content="Mobile-first Flutter applications and secure ASP.NET Core backend systems, built with care.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Roqaia Sadaf | Flutter & ASP.NET Core Developer">
+  <meta name="twitter:description" content="Explore selected Flutter and ASP.NET Core development work.">
+  <title>Roqaia Sadaf | Flutter & ASP.NET Core Developer</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="skipLink">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Roqaia Sadaf — home" data-i18n-aria="brandLabel">
+        <span class="brand-mark" aria-hidden="true">RS</span>
+        <span class="brand-name">Roqaia Sadaf</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation" data-i18n-aria="primaryNav">
+        <a href="#about" data-section="about" data-i18n="navAbout">About</a>
+        <a href="#skills" data-section="skills" data-i18n="navSkills">Skills</a>
+        <a href="#projects" data-section="projects" data-i18n="navProjects">Projects</a>
+        <a href="#experience" data-section="experience" data-i18n="navExperience">Experience</a>
+        <a href="#contact" data-section="contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="control-button language-toggle" id="language-toggle" type="button" aria-label="Switch to Arabic" title="Switch to Arabic">
+          <span class="language-current" aria-hidden="true">AR</span>
+        </button>
+        <button class="control-button theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
+          <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.64 5.64l1.42 1.42M16.94 16.94l1.42 1.42M18.36 5.64l-1.42 1.42M7.06 16.94l-1.42 1.42"/><circle cx="12" cy="12" r="4"/></svg>
+          <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.4 15.2A8.4 8.4 0 0 1 8.8 3.6 8.5 8.5 0 1 0 20.4 15.2Z"/></svg>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation menu" data-i18n-aria="openMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" data-i18n-aria="mobileNav" hidden>
+      <a href="#about" data-section="about" data-i18n="navAbout">About</a>
+      <a href="#skills" data-section="skills" data-i18n="navSkills">Skills</a>
+      <a href="#projects" data-section="projects" data-i18n="navProjects">Projects</a>
+      <a href="#experience" data-section="experience" data-i18n="navExperience">Experience</a>
+      <a href="#contact" data-section="contact" data-i18n="navContact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="availability"><span class="status-dot" aria-hidden="true"></span><span data-i18n="availability">Available for junior developer opportunities</span></p>
+          <p class="eyebrow" data-i18n="heroGreeting">Hi, I’m Roqaia Sadaf</p>
+          <h1 id="hero-title" data-i18n="heroRole">Flutter &amp; ASP.NET Core Developer</h1>
+          <p class="hero-intro" data-i18n="heroIntro">I build thoughtful Flutter experiences and reliable ASP.NET Core APIs, with a focus on clear architecture, secure integration, and maintainable code.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">
+              <span data-i18n="viewProjects">View My Projects</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+            <!-- CV REPLACEMENT: add assets/cv/Roqaia-Sadaf-CV.pdf, then update this href and remove the cv-placeholder class/tooltip. -->
+            <a class="button button-secondary cv-placeholder" href="assets/cv/README.md" title="CV coming soon — opens replacement instructions" data-i18n-title="cvTooltip">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 20h14"/></svg>
+              <span data-i18n="downloadCv">Download CV</span>
+              <span class="soon-tag" data-i18n="soon">Soon</span>
+            </a>
+          </div>
+          <div class="social-links hero-social" aria-label="Social profiles" data-i18n-aria="socialProfiles">
+            <a href="https://github.com/Roqaia-sadaf-23" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" data-i18n-aria="githubProfile">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.87c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.6 9.6 0 0 1 12 6.82a9.6 9.6 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/roqaia-sadave-054325245/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" data-i18n-aria="linkedinProfile">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.5 8.5V18M6.5 5.5v.01M10.5 18v-5.25a3.25 3.25 0 0 1 6.5 0V18M10.5 9v9M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="visual-backdrop"></div>
+          <div class="code-window">
+            <div class="window-bar"><span></span><span></span><span></span><p>roqaia.dev</p></div>
+            <div class="code-layout">
+              <div class="phone-preview">
+                <div class="phone-speaker"></div>
+                <div class="phone-screen">
+                  <div class="app-logo">R</div>
+                  <div class="ui-line wide"></div><div class="ui-line"></div>
+                  <div class="ui-card"><span></span><span></span></div>
+                  <div class="ui-card compact"><span></span><span></span></div>
+                </div>
+              </div>
+              <div class="code-preview">
+                <p><span class="code-blue">class</span> <span class="code-teal">Developer</span> {</p>
+                <p>&nbsp;&nbsp;<span class="code-muted">final</span> stack = [</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">'Flutter'</span>,</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">'ASP.NET Core'</span>,</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-orange">'SQL Server'</span></p>
+                <p>&nbsp;&nbsp;];</p><p>}</p>
+              </div>
+            </div>
+          </div>
+          <div class="floating-chip chip-api"><span>API</span> REST</div>
+          <div class="floating-chip chip-mobile"><span>◈</span> Flutter</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="section-kicker"><span>01</span><span data-i18n="aboutKicker">About me</span></p>
+          <h2 id="about-title" data-i18n="aboutTitle">Building both sides of the experience.</h2>
+        </div>
+        <div class="about-content reveal">
+          <p class="about-lead" data-i18n="aboutLead">I’m a developer based in Al Madinah, focused on Flutter mobile development and ASP.NET Core backend systems.</p>
+          <p data-i18n="aboutBody">I enjoy turning product ideas into responsive interfaces backed by well-structured APIs. My work is guided by clean architecture, maintainable code, thoughtful user experience, and continuous learning.</p>
+          <div class="about-principles">
+            <span data-i18n="principleArchitecture">Clean architecture</span>
+            <span data-i18n="principleUx">User experience</span>
+            <span data-i18n="principleIntegration">API integration</span>
+            <span data-i18n="principleLearning">Continuous learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-kicker"><span>02</span><span data-i18n="skillsKicker">Core toolkit</span></p>
+          <h2 id="skills-title" data-i18n="skillsTitle">Technologies I work with</h2>
+          <p data-i18n="skillsIntro">A practical stack for building mobile products, backend services, and the web experiences around them.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-icon">◆</div><h3 data-i18n="mobileTitle">Mobile Development</h3><div class="skill-tags"><span>Flutter</span><span>Dart</span><span data-i18n="responsiveUi">Responsive UI</span><span data-i18n="stateIntegration">API integration</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">{ }</div><h3 data-i18n="backendTitle">Backend Development</h3><div class="skill-tags"><span>ASP.NET Core Web API</span><span>C#</span><span>REST APIs</span><span>CQRS</span><span>MediatR</span><span>JWT</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">▱</div><h3 data-i18n="databaseTitle">Databases</h3><div class="skill-tags"><span>SQL Server</span><span>Entity Framework Core</span><span data-i18n="dataModeling">Data modeling</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">&lt;/&gt;</div><h3 data-i18n="webTitle">Web Fundamentals</h3><div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span data-i18n="accessibility">Accessibility</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">⌁</div><h3 data-i18n="toolsTitle">Tools &amp; Workflow</h3><div class="skill-tags"><span>Git</span><span>GitHub</span><span>Visual Studio</span><span>VS Code</span><span data-i18n="apiTesting">API testing</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="projects-heading section-heading reveal">
+          <div><p class="section-kicker"><span>03</span><span data-i18n="projectsKicker">Selected work</span></p><h2 id="projects-title" data-i18n="projectsTitle">Featured projects</h2></div>
+          <p data-i18n="projectsIntro">A closer look at the mobile and backend systems I’m developing through hands-on project work.</p>
+        </div>
+
+        <article class="featured-project reveal">
+          <div class="project-media">
+            <!-- SHIFAA IMAGE: replace this src with assets/images/projects/shifaa/shifaa-dashboard.webp (recommended 1600×1000). -->
+            <img src="assets/images/projects/shifaa/shifaa-placeholder.svg" alt="Designed placeholder preview for the Shifaa Clinic Management System" data-i18n-alt="shifaaAlt" loading="lazy" width="1600" height="1000">
+            <span class="featured-label" data-i18n="featuredLabel">Primary project</span>
+          </div>
+          <div class="project-content">
+            <p class="project-type" data-i18n="fullStackProject">Full-stack mobile &amp; web system</p>
+            <h3>Shifaa Clinic Management System</h3>
+            <p data-i18n="shifaaDescription">A bilingual clinic platform connecting patients, doctors, and administrators through a Flutter application, secure ASP.NET Core API, and admin dashboard.</p>
+            <div class="tech-list" aria-label="Technologies used" data-i18n-aria="technologiesUsed"><span>Flutter</span><span>ASP.NET Core</span><span>SQL Server</span><span>CQRS</span><span>JWT</span></div>
+            <ul class="feature-list">
+              <li data-i18n="shifaaFeature1">Patient and doctor mobile experiences</li>
+              <li data-i18n="shifaaFeature2">Appointment booking and available time slots</li>
+              <li data-i18n="shifaaFeature3">Medical records, prescriptions, and payments</li>
+              <li data-i18n="shifaaFeature4">Arabic and English with full RTL support</li>
+            </ul>
+            <button class="text-button project-details" type="button" data-dialog="shifaa-dialog"><span data-i18n="viewDetails">View project details</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-card-image">
+              <!-- E-COMMERCE IMAGE: replace this src with assets/images/projects/ecommerce/ecommerce-cover.webp (recommended 1200×800). -->
+              <img src="assets/images/projects/ecommerce/ecommerce-placeholder.svg" alt="Designed placeholder preview for the E-commerce project" data-i18n-alt="ecommerceAlt" loading="lazy" width="1200" height="800">
+            </div>
+            <div class="project-card-body"><p class="project-type" data-i18n="applicationProject">Application project</p><h3 data-i18n="ecommerceTitle">E-commerce Project</h3><p data-i18n="ecommerceDescription">A practical commerce-focused project used to strengthen application structure, interface design, and end-to-end development skills.</p><button class="text-button project-details" type="button" data-dialog="ecommerce-dialog"><span data-i18n="viewDetails">View project details</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-card-image">
+              <!-- OZZO IMAGE: replace this src with assets/images/projects/ozzo/ozzo-cover.webp (recommended 1200×800). -->
+              <img src="assets/images/projects/ozzo/ozzo-placeholder.svg" alt="Designed placeholder preview for the Ozzo mobile project" data-i18n-alt="ozzoAlt" loading="lazy" width="1200" height="800">
+            </div>
+            <div class="project-card-body"><p class="project-type" data-i18n="mobileProject">Mobile project</p><h3 data-i18n="ozzoTitle">Ozzo Mobile Project</h3><p data-i18n="ozzoDescription">A Flutter mobile project centered on creating a polished, responsive experience and applying maintainable development patterns.</p><button class="text-button project-details" type="button" data-dialog="ozzo-dialog"><span data-i18n="viewDetails">View project details</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section approach-section" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="section-kicker"><span>04</span><span data-i18n="approachKicker">How I build</span></p><h2 id="approach-title" data-i18n="approachTitle">A thoughtful development approach</h2></div>
+        <div class="approach-grid">
+          <article class="approach-item reveal"><span>01</span><h3 data-i18n="approachCleanTitle">Clean &amp; maintainable</h3><p data-i18n="approachCleanText">Clear boundaries, readable code, and structures that can evolve.</p></article>
+          <article class="approach-item reveal"><span>02</span><h3 data-i18n="approachUiTitle">Responsive interfaces</h3><p data-i18n="approachUiText">Experiences designed to feel natural across screen sizes.</p></article>
+          <article class="approach-item reveal"><span>03</span><h3 data-i18n="approachApiTitle">Secure integration</h3><p data-i18n="approachApiText">Reliable API communication with authentication in mind.</p></article>
+          <article class="approach-item reveal"><span>04</span><h3 data-i18n="approachGitTitle">Structured workflow</h3><p data-i18n="approachGitText">Focused changes and a clear, trackable Git history.</p></article>
+          <article class="approach-item reveal"><span>05</span><h3 data-i18n="approachLearnTitle">Continuous learning</h3><p data-i18n="approachLearnText">Improving through practice, feedback, and curiosity.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="experience" aria-labelledby="experience-title">
+      <div class="container experience-grid">
+        <div class="section-heading reveal"><p class="section-kicker"><span>05</span><span data-i18n="experienceKicker">My journey</span></p><h2 id="experience-title" data-i18n="experienceTitle">Experience &amp; learning</h2><p data-i18n="experienceIntro">I’m building professional readiness through practical projects and a consistent focus on modern mobile and backend development.</p></div>
+        <div class="timeline reveal">
+          <article class="timeline-item"><span class="timeline-dot" aria-hidden="true"></span><p class="timeline-label" data-i18n="currentFocus">Current focus</p><h3 data-i18n="portfolioDevelopment">Portfolio development</h3><p data-i18n="portfolioDevelopmentText">Designing and building end-to-end projects that connect Flutter interfaces with structured ASP.NET Core services.</p></article>
+          <article class="timeline-item"><span class="timeline-dot" aria-hidden="true"></span><p class="timeline-label" data-i18n="ongoing">Ongoing</p><h3 data-i18n="independentLearning">Independent learning</h3><p data-i18n="independentLearningText">Deepening my understanding of clean architecture, API security, relational data, and accessible interface design.</p></article>
+          <!-- EDUCATION ENTRY: add verified education details here as another .timeline-item. See README.md > Updating experience and education. -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-card reveal">
+        <div class="contact-copy"><p class="section-kicker light"><span>06</span><span data-i18n="contactKicker">Let’s connect</span></p><h2 id="contact-title" data-i18n="contactTitle">Looking for a developer with a mobile-and-backend mindset?</h2><p data-i18n="contactText">I’m open to junior developer opportunities and conversations with recruiters or collaborators. The best way to reach me is through LinkedIn or GitHub.</p><p class="location"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span data-i18n="location">Al Madinah, Saudi Arabia</span></p></div>
+        <div class="contact-actions"><a class="button button-light" href="https://www.linkedin.com/in/roqaia-sadave-054325245/" target="_blank" rel="noopener noreferrer"><span data-i18n="connectLinkedin">Connect on LinkedIn</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></a><a class="contact-profile" href="https://github.com/Roqaia-sadaf-23" target="_blank" rel="noopener noreferrer"><span data-i18n="visitGithub">Visit GitHub profile</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><p>© <span id="current-year"></span> Roqaia Sadaf. <span data-i18n="footerText">Built with care and curiosity.</span></p><div class="footer-links"><a href="https://github.com/Roqaia-sadaf-23" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/roqaia-sadave-054325245/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top" data-i18n-aria="backToTop"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 14 6-6 6 6"/></svg></button>
+
+  <dialog class="project-dialog" id="shifaa-dialog" aria-labelledby="shifaa-dialog-title"><div class="dialog-head"><div><p class="project-type" data-i18n="fullStackProject">Full-stack mobile &amp; web system</p><h2 id="shifaa-dialog-title">Shifaa Clinic Management System</h2></div><button class="dialog-close" type="button" aria-label="Close project details" data-i18n-aria="closeDetails">×</button></div><p data-i18n="shifaaDialogIntro">Shifaa brings patient, doctor, and clinic administration workflows into one bilingual system.</p><div class="dialog-columns"><div><h3 data-i18n="productSurfaces">Product surfaces</h3><ul><li data-i18n="patientDoctorApp">Flutter app for patients and doctors</li><li data-i18n="adminDashboard">Admin web dashboard</li><li data-i18n="secureApi">ASP.NET Core Web API</li><li data-i18n="sqlDatabase">SQL Server database</li></ul></div><div><h3 data-i18n="coreCapabilities">Core capabilities</h3><ul><li data-i18n="profilesRecords">Doctor and patient profiles, medical records</li><li data-i18n="bookingPrescriptions">Booking, time slots, prescriptions, payments</li><li data-i18n="authTokens">JWT authentication and refresh tokens</li><li data-i18n="cqrsArchitecture">CQRS and MediatR architecture</li><li data-i18n="bilingualRtl">Arabic, English, and RTL support</li></ul></div></div></dialog>
+  <dialog class="project-dialog" id="ecommerce-dialog" aria-labelledby="ecommerce-dialog-title"><div class="dialog-head"><div><p class="project-type" data-i18n="applicationProject">Application project</p><h2 id="ecommerce-dialog-title" data-i18n="ecommerceTitle">E-commerce Project</h2></div><button class="dialog-close" type="button" aria-label="Close project details" data-i18n-aria="closeDetails">×</button></div><p data-i18n="ecommerceDialogText">A hands-on project for practicing application structure, interface composition, and the flow between user-facing screens and application logic. More verified details and screenshots can be added as the project evolves.</p></dialog>
+  <dialog class="project-dialog" id="ozzo-dialog" aria-labelledby="ozzo-dialog-title"><div class="dialog-head"><div><p class="project-type" data-i18n="mobileProject">Mobile project</p><h2 id="ozzo-dialog-title" data-i18n="ozzoTitle">Ozzo Mobile Project</h2></div><button class="dialog-close" type="button" aria-label="Close project details" data-i18n-aria="closeDetails">×</button></div><p data-i18n="ozzoDialogText">A Flutter project used to develop polished, responsive mobile interface skills and reinforce maintainable implementation patterns. More verified details and screenshots can be added as the project evolves.</p></dialog>
+
+  <noscript><div class="noscript-message">This portfolio works best with JavaScript enabled for language, theme, and project detail controls.</div></noscript>
+</body>
+</html>
