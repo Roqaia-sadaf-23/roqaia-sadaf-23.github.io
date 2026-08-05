@@ -178,9 +178,23 @@
                 </svg>
               </a>
               <!-- CV REPLACEMENT: add assets/cv/Roqaia-Sadaf-CV.pdf, then update this href and remove the cv-placeholder class/tooltip. -->
+
               <a
+                class="button button-secondary"
+                href="assets/cv/Roqaia-Sadaf-CV.pdf"
+                download
+                aria-label="Download Roqaia Sadaf CV"
+              >
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M12 3v12m0 0 4-4m-4 4-4-4M5 20h14" />
+                </svg>
+
+                <span data-i18n="downloadCv">Download CV</span>
+              </a>
+
+              <!--      <a
                 class="button button-secondary cv-placeholder"
-                href="assets/cv/Full-stack Raghaia Sadaf-CV (1).pdf"
+                href="assets/cv/Full-stack Raghaia Sadaf-CV.pdf"
                 title="CV coming soon — opens replacement instructions"
                 data-i18n-title="cvTooltip"
               >
@@ -189,7 +203,8 @@
                 </svg>
                 <span data-i18n="downloadCv">Download CV</span>
                 <span class="soon-tag" data-i18n="soon">Soon</span>
-              </a>
+              </a> 
+             
             </div>
             <div
               class="social-links hero-social"
