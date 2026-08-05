@@ -19,7 +19,7 @@
     />
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="ar_SA" />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
       content="Roqaia Sadaf | Flutter & ASP.NET Core Developer"
@@ -28,7 +28,15 @@
       name="twitter:description"
       content="Explore selected Flutter and ASP.NET Core development work."
     />
-    <title>Roqaia Sadaf | Flutter & ASP.NET Core Developer</title>
+    <meta
+      property="og:image"
+      content="https://roqaia-sadaf-23.github.io/assets/images/projects/shifaa/clinic-adnin/photo_1_2026-08-05_02-12-45.jpg"
+    />
+    <meta
+      name="twitter:image"
+      content="https://roqaia-sadaf-23.github.io/assets/images/projects/shifaa/clinic-adnin/photo_1_2026-08-05_02-12-45.jpg"
+    />
+    <title>Roqaia Sadaf | Flutter &amp; ASP.NET Core Developer</title>
     <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -177,8 +185,6 @@
                   <path d="m9 18 6-6-6-6" />
                 </svg>
               </a>
-              <!-- CV REPLACEMENT: add assets/cv/Roqaia-Sadaf-CV.pdf, then update this href and remove the cv-placeholder class/tooltip. -->
-
               <a
                 class="button button-secondary"
                 href="assets/cv/Roqaia-Sadaf-CV.pdf"
@@ -191,22 +197,10 @@
 
                 <span data-i18n="downloadCv">Download CV</span>
               </a>
-
-              <!--      <a
-                class="button button-secondary cv-placeholder"
-                href="assets/cv/Full-stack Raghaia Sadaf-CV.pdf"
-                title="CV coming soon — opens replacement instructions"
-                data-i18n-title="cvTooltip"
-              >
-                <svg aria-hidden="true" viewBox="0 0 24 24">
-                  <path d="M12 3v12m0 0 4-4m-4 4-4-4M5 20h14" />
-                </svg>
-                <span data-i18n="downloadCv">Download CV</span>
-                <span class="soon-tag" data-i18n="soon">Soon</span>
-              </a> -->
             </div>
             <div
               class="social-links hero-social"
+              role="group"
               aria-label="Social profiles"
               data-i18n-aria="socialProfiles"
             >
@@ -412,14 +406,13 @@
 
           <article class="featured-project reveal">
             <div class="project-media">
-              <!-- SHIFAA IMAGE: replace this src with assets/images/projects/shifaa/shifaa-dashboard.webp (recommended 1600×1000). -->
               <img
-                src="assets/images/projects/shifaa/shifaa-placeholder.svg"
-                alt="Designed placeholder preview for the Shifaa Clinic Management System"
+                src="assets/images/projects/shifaa/clinic-adnin/photo_1_2026-08-05_02-12-45.jpg"
+                alt="Shifaa admin dashboard showing clinic operations overview"
                 data-i18n-alt="shifaaAlt"
                 loading="lazy"
-                width="1600"
-                height="1000"
+                width="1280"
+                height="720"
               />
               <span class="featured-label" data-i18n="featuredLabel"
                 >Primary project</span
@@ -437,6 +430,7 @@
               </p>
               <div
                 class="tech-list"
+                role="group"
                 aria-label="Technologies used"
                 data-i18n-aria="technologiesUsed"
               >
@@ -457,30 +451,56 @@
                   Arabic and English with full RTL support
                 </li>
               </ul>
-              <button
-                class="text-button project-details"
-                type="button"
-                data-dialog="shifaa-dialog"
-              >
-                <span data-i18n="viewDetails">View project details</span
-                ><svg aria-hidden="true" viewBox="0 0 24 24">
-                  <path d="m9 18 6-6-6-6" />
-                </svg>
-              </button>
+              <div class="project-actions">
+                <button
+                  class="text-button project-details"
+                  type="button"
+                  data-dialog="shifaa-dialog"
+                >
+                  <span data-i18n="viewDetails">View project details</span
+                  ><svg aria-hidden="true" viewBox="0 0 24 24">
+                    <path d="m9 18 6-6-6-6" />
+                  </svg>
+                </button>
+                <a
+                  class="text-button"
+                  href="https://github.com/Roqaia-sadaf-23/shifaa-clinic-system"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span data-i18n="viewSource">View source</span>
+                  <svg aria-hidden="true" viewBox="0 0 24 24">
+                    <path d="M7 17 17 7M8 7h9v9" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </article>
 
           <div class="project-grid">
             <article class="project-card reveal">
-              <div class="project-card-image">
-                <!-- E-COMMERCE IMAGE: replace this src with assets/images/projects/ecommerce/ecommerce-cover.webp (recommended 1200×800). -->
+              <div class="project-card-image mobile-preview-strip">
                 <img
-                  src="assets/images/projects/ecommerce/ecommerce-placeholder.svg"
-                  alt="Designed placeholder preview for the E-commerce project"
+                  src="assets/images/projects/ecommerce/photo_2_2026-08-05_02-03-56.jpg"
+                  alt="E-commerce Flutter app product discovery screen"
                   data-i18n-alt="ecommerceAlt"
                   loading="lazy"
-                  width="1200"
-                  height="800"
+                  width="619"
+                  height="1280"
+                />
+                <img
+                  src="assets/images/projects/ecommerce/photo_3_2026-08-05_02-03-56.jpg"
+                  alt="E-commerce Flutter app shopping cart screen"
+                  loading="lazy"
+                  width="644"
+                  height="1280"
+                />
+                <img
+                  src="assets/images/projects/ecommerce/photo_4_2026-08-05_02-03-56.jpg"
+                  alt="E-commerce Flutter app product details screen"
+                  loading="lazy"
+                  width="627"
+                  height="1280"
                 />
               </div>
               <div class="project-card-body">
@@ -489,54 +509,91 @@
                 </p>
                 <h3 data-i18n="ecommerceTitle">E-commerce Project</h3>
                 <p data-i18n="ecommerceDescription">
-                  A practical commerce-focused project used to strengthen
-                  application structure, interface design, and end-to-end
-                  development skills.
+                  A Flutter storefront with onboarding, product discovery,
+                  category browsing, product details, and cart management.
                 </p>
-                <button
-                  class="text-button project-details"
-                  type="button"
-                  data-dialog="ecommerce-dialog"
-                >
-                  <span data-i18n="viewDetails">View project details</span
-                  ><svg aria-hidden="true" viewBox="0 0 24 24">
-                    <path d="m9 18 6-6-6-6" />
-                  </svg>
-                </button>
+                <div class="project-actions">
+                  <button
+                    class="text-button project-details"
+                    type="button"
+                    data-dialog="ecommerce-dialog"
+                  >
+                    <span data-i18n="viewDetails">View project details</span
+                    ><svg aria-hidden="true" viewBox="0 0 24 24">
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </button>
+                  <a
+                    class="text-button"
+                    href="https://github.com/Roqaia-sadaf-23/e-commerce-simple-flutter"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span data-i18n="viewSource">View source</span>
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                      <path d="M7 17 17 7M8 7h9v9" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </article>
             <article class="project-card reveal">
-              <div class="project-card-image">
-                <!-- OZZO IMAGE: replace this src with assets/images/projects/ozzo/ozzo-cover.webp (recommended 1200×800). -->
+              <div class="project-card-image mobile-preview-strip">
                 <img
-                  src="assets/images/projects/ozzo/ozzo-placeholder.svg"
-                  alt="Designed placeholder preview for the Ozzo mobile project"
+                  src="assets/images/projects/ozzo/photo_1_2026-08-05_02-21-39.jpg"
+                  alt="Ozzoma Flutter app Arabic onboarding screen"
                   data-i18n-alt="ozzoAlt"
                   loading="lazy"
-                  width="1200"
-                  height="800"
+                  width="654"
+                  height="1280"
+                />
+                <img
+                  src="assets/images/projects/ozzo/photo_4_2026-08-05_02-21-39.jpg"
+                  alt="Ozzoma Flutter app subscription form"
+                  loading="lazy"
+                  width="645"
+                  height="1280"
+                />
+                <img
+                  src="assets/images/projects/ozzo/photo_6_2026-08-05_02-21-39.jpg"
+                  alt="Ozzoma Flutter app verification code screen"
+                  loading="lazy"
+                  width="637"
+                  height="1280"
                 />
               </div>
               <div class="project-card-body">
                 <p class="project-type" data-i18n="mobileProject">
                   Mobile project
                 </p>
-                <h3 data-i18n="ozzoTitle">Ozzo Mobile Project</h3>
+                <h3 data-i18n="ozzoTitle">Ozzoma Mobile Project</h3>
                 <p data-i18n="ozzoDescription">
-                  A Flutter mobile project centered on creating a polished,
-                  responsive experience and applying maintainable development
-                  patterns.
+                  An Arabic Flutter experience with onboarding, account
+                  subscription, form validation, and verification flows.
                 </p>
-                <button
-                  class="text-button project-details"
-                  type="button"
-                  data-dialog="ozzo-dialog"
-                >
-                  <span data-i18n="viewDetails">View project details</span
-                  ><svg aria-hidden="true" viewBox="0 0 24 24">
-                    <path d="m9 18 6-6-6-6" />
-                  </svg>
-                </button>
+                <div class="project-actions">
+                  <button
+                    class="text-button project-details"
+                    type="button"
+                    data-dialog="ozzo-dialog"
+                  >
+                    <span data-i18n="viewDetails">View project details</span
+                    ><svg aria-hidden="true" viewBox="0 0 24 24">
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </button>
+                  <a
+                    class="text-button"
+                    href="https://github.com/Roqaia-sadaf-23/ozzoma_mobile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span data-i18n="viewSource">View source</span>
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                      <path d="M7 17 17 7M8 7h9v9" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </article>
           </div>
@@ -618,25 +675,36 @@
           <div class="timeline reveal">
             <article class="timeline-item">
               <span class="timeline-dot" aria-hidden="true"></span>
-              <p class="timeline-label" data-i18n="currentFocus">
-                Current focus
+              <p class="timeline-label" data-i18n="freelancePeriod">
+                Sep 2024 — Jul 2026
               </p>
-              <h3 data-i18n="portfolioDevelopment">Portfolio development</h3>
-              <p data-i18n="portfolioDevelopmentText">
-                Designing and building end-to-end projects that connect Flutter
-                interfaces with structured ASP.NET Core services.
+              <h3 data-i18n="freelanceTitle">
+                Junior Flutter Developer / Freelance
+              </h3>
+              <p data-i18n="freelanceText">
+                Built and improved Flutter interfaces and API integrations
+                through independent, portfolio, and client-oriented projects.
               </p>
             </article>
             <article class="timeline-item">
               <span class="timeline-dot" aria-hidden="true"></span>
-              <p class="timeline-label" data-i18n="ongoing">Ongoing</p>
-              <h3 data-i18n="independentLearning">Independent learning</h3>
-              <p data-i18n="independentLearningText">
-                Deepening my understanding of clean architecture, API security,
-                relational data, and accessible interface design.
+              <p class="timeline-label" data-i18n="currentFocus">
+                Current focus
+              </p>
+              <h3 data-i18n="portfolioDevelopment">Full-stack development</h3>
+              <p data-i18n="portfolioDevelopmentText">
+                Designing end-to-end projects that connect Flutter applications
+                with structured ASP.NET Core services and SQL Server databases.
               </p>
             </article>
-            <!-- EDUCATION ENTRY: add verified education details here as another .timeline-item. See README.md > Updating experience and education. -->
+            <article class="timeline-item">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <p class="timeline-label" data-i18n="educationYear">2021</p>
+              <h3 data-i18n="educationTitle">Bachelor’s Degree</h3>
+              <p data-i18n="educationText">
+                E-Commerce — University of the Holy Quran and Islamic Sciences.
+              </p>
+            </article>
           </div>
         </div>
       </section>
@@ -749,6 +817,40 @@
         Shifaa brings patient, doctor, and clinic administration workflows into
         one bilingual system.
       </p>
+      <div
+        class="project-gallery project-gallery-mixed"
+        role="group"
+        aria-label="Shifaa project screenshots"
+      >
+        <img
+          src="assets/images/projects/shifaa/clinic-adnin/photo_1_2026-08-05_02-12-45.jpg"
+          alt="Shifaa admin dashboard overview"
+          loading="lazy"
+          width="1280"
+          height="720"
+        />
+        <img
+          src="assets/images/projects/shifaa/Clinic/photo_15_2026-08-05_02-16-10.jpg"
+          alt="Shifaa patient home screen"
+          loading="lazy"
+          width="592"
+          height="1280"
+        />
+        <img
+          src="assets/images/projects/shifaa/Clinic/photo_16_2026-08-05_02-16-10.jpg"
+          alt="Shifaa doctor home screen"
+          loading="lazy"
+          width="595"
+          height="1280"
+        />
+        <img
+          src="assets/images/projects/shifaa/Clinic/photo_13_2026-08-05_02-16-10.jpg"
+          alt="Shifaa doctor appointments screen"
+          loading="lazy"
+          width="590"
+          height="1280"
+        />
+      </div>
       <div class="dialog-columns">
         <div>
           <h3 data-i18n="productSurfaces">Product surfaces</h3>
@@ -778,6 +880,24 @@
           </ul>
         </div>
       </div>
+      <div class="dialog-links">
+        <a
+          class="button button-primary"
+          href="https://github.com/Roqaia-sadaf-23/shifaa-clinic-system"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="viewCombinedRepo"
+          >View combined repository</a
+        >
+        <a
+          class="button button-secondary"
+          href="https://github.com/Roqaia-sadaf-23/clinic-admin-dashboard"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="viewAdminRepo"
+          >View admin dashboard</a
+        >
+      </div>
     </dialog>
     <dialog
       class="project-dialog"
@@ -803,11 +923,61 @@
         </button>
       </div>
       <p data-i18n="ecommerceDialogText">
-        A hands-on project for practicing application structure, interface
-        composition, and the flow between user-facing screens and application
-        logic. More verified details and screenshots can be added as the project
-        evolves.
+        A Flutter shopping experience covering onboarding, catalog discovery,
+        categories, product details, and quantity management in the cart.
       </p>
+      <div
+        class="project-gallery"
+        role="group"
+        aria-label="E-commerce project screenshots"
+      >
+        <img
+          src="assets/images/projects/ecommerce/photo_2_2026-08-05_02-03-56.jpg"
+          alt="E-commerce home screen"
+          loading="lazy"
+          width="619"
+          height="1280"
+        />
+        <img
+          src="assets/images/projects/ecommerce/photo_3_2026-08-05_02-03-56.jpg"
+          alt="E-commerce cart screen"
+          loading="lazy"
+          width="644"
+          height="1280"
+        />
+        <img
+          src="assets/images/projects/ecommerce/photo_4_2026-08-05_02-03-56.jpg"
+          alt="E-commerce product details screen"
+          loading="lazy"
+          width="627"
+          height="1280"
+        />
+        <img
+          src="assets/images/projects/ecommerce/photo_5_2026-08-05_02-03-56.jpg"
+          alt="E-commerce onboarding screen"
+          loading="lazy"
+          width="607"
+          height="1280"
+        />
+      </div>
+      <div class="dialog-links">
+        <a
+          class="button button-primary"
+          href="https://github.com/Roqaia-sadaf-23/e-commerce-simple-flutter"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="viewFlutterRepo"
+          >View Flutter repository</a
+        >
+        <a
+          class="button button-secondary"
+          href="https://github.com/Roqaia-sadaf-23/ecommerce-backend"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="viewBackendRepo"
+          >View backend repository</a
+        >
+      </div>
     </dialog>
     <dialog
       class="project-dialog"
@@ -818,7 +988,7 @@
         <div>
           <p class="project-type" data-i18n="mobileProject">Mobile project</p>
           <h2 id="ozzo-dialog-title" data-i18n="ozzoTitle">
-            Ozzo Mobile Project
+            Ozzoma Mobile Project
           </h2>
         </div>
         <button
@@ -831,10 +1001,53 @@
         </button>
       </div>
       <p data-i18n="ozzoDialogText">
-        A Flutter project used to develop polished, responsive mobile interface
-        skills and reinforce maintainable implementation patterns. More verified
-        details and screenshots can be added as the project evolves.
+        An Arabic Flutter application demonstrating a guided onboarding journey,
+        subscription data entry, success feedback, and verification-code flows.
       </p>
+      <div
+        class="project-gallery"
+        role="group"
+        aria-label="Ozzoma project screenshots"
+      >
+        <img
+          src="assets/images/projects/ozzo/photo_1_2026-08-05_02-21-39.jpg"
+          alt="Ozzoma Arabic onboarding screen"
+          loading="lazy"
+          width="654"
+          height="1280"
+        />
+        <img
+          src="assets/images/projects/ozzo/photo_2_2026-08-05_02-21-39.jpg"
+          alt="Ozzoma onboarding information screen"
+          loading="lazy"
+          width="648"
+          height="1280"
+        />
+        <img
+          src="assets/images/projects/ozzo/photo_4_2026-08-05_02-21-39.jpg"
+          alt="Ozzoma subscription form"
+          loading="lazy"
+          width="645"
+          height="1280"
+        />
+        <img
+          src="assets/images/projects/ozzo/photo_6_2026-08-05_02-21-39.jpg"
+          alt="Ozzoma verification code screen"
+          loading="lazy"
+          width="637"
+          height="1280"
+        />
+      </div>
+      <div class="dialog-links">
+        <a
+          class="button button-primary"
+          href="https://github.com/Roqaia-sadaf-23/ozzoma_mobile"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="viewFlutterRepo"
+          >View Flutter repository</a
+        >
+      </div>
     </dialog>
 
     <noscript

@@ -30,8 +30,6 @@ const translations = {
       "I build thoughtful Flutter experiences and reliable ASP.NET Core APIs, with a focus on clear architecture, secure integration, and maintainable code.",
     viewProjects: "View My Projects",
     downloadCv: "Download CV",
-    soon: "Soon",
-    cvTooltip: "CV coming soon — opens replacement instructions",
     aboutKicker: "About me",
     aboutTitle: "Building both sides of the experience.",
     aboutLead:
@@ -70,18 +68,18 @@ const translations = {
     shifaaFeature3: "Medical records, prescriptions, and payments",
     shifaaFeature4: "Arabic and English with full RTL support",
     viewDetails: "View project details",
-    shifaaAlt:
-      "Designed placeholder preview for the Shifaa Clinic Management System",
-    ecommerceAlt: "Designed placeholder preview for the E-commerce project",
-    ozzoAlt: "Designed placeholder preview for the Ozzo mobile project",
+    viewSource: "View source",
+    shifaaAlt: "Shifaa admin dashboard showing clinic operations overview",
+    ecommerceAlt: "E-commerce Flutter app product discovery screen",
+    ozzoAlt: "Ozzoma Flutter app Arabic onboarding screen",
     applicationProject: "Application project",
     ecommerceTitle: "E-commerce Project",
     ecommerceDescription:
-      "A practical commerce-focused project used to strengthen application structure, interface design, and end-to-end development skills.",
+      "A Flutter storefront with onboarding, product discovery, category browsing, product details, and cart management.",
     mobileProject: "Mobile project",
-    ozzoTitle: "Ozzo Mobile Project",
+    ozzoTitle: "Ozzoma Mobile Project",
     ozzoDescription:
-      "A Flutter mobile project centered on creating a polished, responsive experience and applying maintainable development patterns.",
+      "An Arabic Flutter experience with onboarding, account subscription, form validation, and verification flows.",
     approachKicker: "How I build",
     approachTitle: "A thoughtful development approach",
     approachCleanTitle: "Clean & maintainable",
@@ -99,10 +97,18 @@ const translations = {
     experienceTitle: "Experience & learning",
     experienceIntro:
       "I’m building professional readiness through practical projects and a consistent focus on modern mobile and backend development.",
+    freelancePeriod: "Sep 2024 — Jul 2026",
+    freelanceTitle: "Junior Flutter Developer / Freelance",
+    freelanceText:
+      "Built and improved Flutter interfaces and API integrations through independent, portfolio, and client-oriented projects.",
     currentFocus: "Current focus",
-    portfolioDevelopment: "Portfolio development",
+    portfolioDevelopment: "Full-stack development",
     portfolioDevelopmentText:
-      "Designing and building end-to-end projects that connect Flutter interfaces with structured ASP.NET Core services.",
+      "Designing end-to-end projects that connect Flutter applications with structured ASP.NET Core services and SQL Server databases.",
+    educationYear: "2021",
+    educationTitle: "Bachelor’s Degree",
+    educationText:
+      "E-Commerce — University of the Holy Quran and Islamic Sciences.",
     ongoing: "Ongoing",
     independentLearning: "Independent learning",
     independentLearningText:
@@ -130,10 +136,14 @@ const translations = {
     authTokens: "JWT authentication and refresh tokens",
     cqrsArchitecture: "CQRS and MediatR architecture",
     bilingualRtl: "Arabic, English, and RTL support",
+    viewCombinedRepo: "View combined repository",
+    viewAdminRepo: "View admin dashboard",
+    viewFlutterRepo: "View Flutter repository",
+    viewBackendRepo: "View backend repository",
     ecommerceDialogText:
-      "A hands-on project for practicing application structure, interface composition, and the flow between user-facing screens and application logic. More verified details and screenshots can be added as the project evolves.",
+      "A Flutter shopping experience covering onboarding, catalog discovery, categories, product details, and quantity management in the cart.",
     ozzoDialogText:
-      "A Flutter project used to develop polished, responsive mobile interface skills and reinforce maintainable implementation patterns. More verified details and screenshots can be added as the project evolves.",
+      "An Arabic Flutter application demonstrating a guided onboarding journey, subscription data entry, success feedback, and verification-code flows.",
   },
   ar: {
     pageTitle: "رقية صداف | مطورة Flutter وASP.NET Core",
@@ -164,8 +174,6 @@ const translations = {
       "أبني تجارب مدروسة باستخدام Flutter وواجهات API موثوقة باستخدام ASP.NET Core، مع اهتمام بالهندسة الواضحة والتكامل الآمن وسهولة صيانة الكود.",
     viewProjects: "استعرض مشاريعي",
     downloadCv: "تحميل السيرة الذاتية",
-    soon: "قريباً",
-    cvTooltip: "السيرة الذاتية ستتوفر قريباً — يفتح تعليمات الاستبدال",
     aboutKicker: "نبذة عني",
     aboutTitle: "أبني التجربة من الواجهة إلى الخادم.",
     aboutLead:
@@ -204,17 +212,18 @@ const translations = {
     shifaaFeature3: "السجلات الطبية والوصفات والمدفوعات",
     shifaaFeature4: "العربية والإنجليزية مع دعم كامل لـ RTL",
     viewDetails: "عرض تفاصيل المشروع",
-    shifaaAlt: "صورة بديلة مصممة لنظام شفاء لإدارة العيادات",
-    ecommerceAlt: "صورة بديلة مصممة لمشروع التجارة الإلكترونية",
-    ozzoAlt: "صورة بديلة مصممة لمشروع Ozzo للجوال",
+    viewSource: "عرض الكود",
+    shifaaAlt: "لوحة تحكم شفاء تعرض نظرة عامة على عمليات العيادة",
+    ecommerceAlt: "شاشة استكشاف المنتجات في تطبيق المتجر المبني بـ Flutter",
+    ozzoAlt: "شاشة تعريفية عربية في تطبيق أزوما المبني بـ Flutter",
     applicationProject: "مشروع تطبيقي",
     ecommerceTitle: "مشروع التجارة الإلكترونية",
     ecommerceDescription:
-      "مشروع عملي يركز على التجارة الإلكترونية لتعزيز بنية التطبيقات وتصميم الواجهات ومهارات التطوير المتكاملة.",
+      "متجر مبني بـ Flutter يضم شاشات تعريفية واستكشاف المنتجات والتصنيفات وتفاصيل المنتج وإدارة السلة.",
     mobileProject: "مشروع جوال",
-    ozzoTitle: "مشروع Ozzo للجوال",
+    ozzoTitle: "مشروع أزوما للجوال",
     ozzoDescription:
-      "مشروع Flutter للجوال يركز على إنشاء تجربة أنيقة ومتجاوبة وتطبيق أنماط تطوير قابلة للصيانة.",
+      "تجربة Flutter عربية تشمل الشاشات التعريفية والاشتراك والتحقق من البيانات ورمز التأكيد.",
     approachKicker: "أسلوبي في البناء",
     approachTitle: "منهج تطوير مدروس",
     approachCleanTitle: "نظيف وقابل للصيانة",
@@ -231,10 +240,18 @@ const translations = {
     experienceTitle: "الخبرة والتعلم",
     experienceIntro:
       "أبني جاهزيتي المهنية من خلال مشاريع عملية وتركيز مستمر على تطوير تطبيقات الجوال وأنظمة الخلفية الحديثة.",
+    freelancePeriod: "سبتمبر 2024 — يوليو 2026",
+    freelanceTitle: "مطورة Flutter مبتدئة / عمل حر",
+    freelanceText:
+      "بنيت وطورت واجهات Flutter وعمليات التكامل مع واجهات API من خلال مشاريع مستقلة ومشاريع ملف أعمال ومشاريع موجهة للعملاء.",
     currentFocus: "التركيز الحالي",
-    portfolioDevelopment: "تطوير المشاريع الشخصية",
+    portfolioDevelopment: "التطوير المتكامل",
     portfolioDevelopmentText:
-      "تصميم وبناء مشاريع متكاملة تربط واجهات Flutter بخدمات ASP.NET Core منظمة.",
+      "تصميم مشاريع متكاملة تربط تطبيقات Flutter بخدمات ASP.NET Core منظمة وقواعد بيانات SQL Server.",
+    educationYear: "2021",
+    educationTitle: "درجة البكالوريوس",
+    educationText:
+      "التجارة الإلكترونية — جامعة القرآن الكريم والعلوم الإسلامية.",
     ongoing: "مستمر",
     independentLearning: "التعلم المستقل",
     independentLearningText:
@@ -262,10 +279,14 @@ const translations = {
     authTokens: "مصادقة JWT ورموز التحديث",
     cqrsArchitecture: "بنية CQRS وMediatR",
     bilingualRtl: "العربية والإنجليزية ودعم RTL",
+    viewCombinedRepo: "عرض المستودع الموحّد",
+    viewAdminRepo: "عرض لوحة تحكم الإدارة",
+    viewFlutterRepo: "عرض مستودع Flutter",
+    viewBackendRepo: "عرض مستودع الـ Backend",
     ecommerceDialogText:
-      "مشروع عملي للتدرب على بنية التطبيقات وتكوين الواجهات والتدفق بين شاشات المستخدم ومنطق التطبيق. يمكن إضافة المزيد من التفاصيل الموثقة والصور مع تطور المشروع.",
+      "تجربة تسوق مبنية بـ Flutter تشمل الشاشات التعريفية واستكشاف الكتالوج والتصنيفات وتفاصيل المنتجات وإدارة الكميات في السلة.",
     ozzoDialogText:
-      "مشروع Flutter لتطوير مهارات تصميم واجهات جوال أنيقة ومتجاوبة وتعزيز أنماط التنفيذ القابلة للصيانة. يمكن إضافة المزيد من التفاصيل الموثقة والصور مع تطور المشروع.",
+      "تطبيق Flutter عربي يعرض رحلة تعريفية موجهة وإدخال بيانات الاشتراك ورسائل نجاح ورمز تحقق.",
   },
 };
 
