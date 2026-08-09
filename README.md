@@ -1,6 +1,6 @@
 # Roqaia Sadaf — Personal Portfolio
 
-A responsive, bilingual personal portfolio for Roqaia Sadaf, a Flutter and ASP.NET Core developer based in Al Madinah, Saudi Arabia. The site presents selected projects, technical skills, development values, and professional contact links without inventing work history or project claims.
+A responsive, bilingual personal portfolio for Roqaia Sadaf, a Flutter and ASP.NET Core developer based in Saudi Arabia. The site presents selected projects, technical skills, development values, and professional contact links without inventing work history or project claims.
 
 The website is built with plain HTML, CSS, and JavaScript and is ready to host on GitHub Pages. It has no build step and no third-party dependencies.
 

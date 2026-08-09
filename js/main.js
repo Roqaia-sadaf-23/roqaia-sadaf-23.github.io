@@ -4,7 +4,7 @@ const translations = {
   en: {
     pageTitle: "Roqaia Sadaf | Flutter & ASP.NET Core Developer",
     metaDescription:
-      "Portfolio of Roqaia Sadaf, a Flutter and ASP.NET Core developer in Al Madinah, Saudi Arabia.",
+      "Portfolio of Roqaia Sadaf, a Flutter and ASP.NET Core developer in  Saudi Arabia.",
     skipLink: "Skip to main content",
     brandLabel: "Roqaia Sadaf — home",
     primaryNav: "Primary navigation",
@@ -33,7 +33,7 @@ const translations = {
     aboutKicker: "About me",
     aboutTitle: "Building both sides of the experience.",
     aboutLead:
-      "I’m a developer based in Al Madinah, focused on Flutter mobile development and ASP.NET Core backend systems.",
+      "I’m a developer based in Saudi Arabia, focused on Flutter mobile development and ASP.NET Core backend systems.",
     aboutBody:
       "I enjoy turning product ideas into responsive interfaces backed by well-structured APIs. My work is guided by clean architecture, maintainable code, thoughtful user experience, and continuous learning.",
     principleArchitecture: "Clean architecture",
@@ -117,7 +117,7 @@ const translations = {
     contactTitle: "Looking for a developer with a mobile-and-backend mindset?",
     contactText:
       "I’m open to junior developer opportunities and conversations with recruiters or collaborators. The best way to reach me is through LinkedIn or GitHub.",
-    location: "Al Madinah, Saudi Arabia",
+    location: "Saudi Arabia",
     connectLinkedin: "Connect on LinkedIn",
     visitGithub: "Visit GitHub profile",
     footerText: "Built with care and curiosity.",
@@ -148,7 +148,7 @@ const translations = {
   ar: {
     pageTitle: "رقية صداف | مطورة Flutter وASP.NET Core",
     metaDescription:
-      "الملف الشخصي لرقية صداف، مطورة Flutter وASP.NET Core في المدينة المنورة، المملكة العربية السعودية.",
+      "الملف الشخصي لرقية صداف، مطورة Flutter وASP.NET Core في  المملكة العربية السعودية.",
     skipLink: "تخطي إلى المحتوى الرئيسي",
     brandLabel: "رقية صداف — الرئيسية",
     primaryNav: "التنقل الرئيسي",
@@ -177,7 +177,7 @@ const translations = {
     aboutKicker: "نبذة عني",
     aboutTitle: "أبني التجربة من الواجهة إلى الخادم.",
     aboutLead:
-      "أنا مطورة من المدينة المنورة، أركز على تطوير تطبيقات Flutter وأنظمة الخلفية باستخدام ASP.NET Core.",
+      "أنا مطورة من المملكة العربية السعودية، أركز على تطوير تطبيقات Flutter وأنظمة الخلفية باستخدام ASP.NET Core.",
     aboutBody:
       "أستمتع بتحويل أفكار المنتجات إلى واجهات متجاوبة تدعمها واجهات API منظمة. أسترشد في عملي بالهندسة النظيفة والكود القابل للصيانة وتجربة المستخدم المدروسة والتعلم المستمر.",
     principleArchitecture: "الهندسة النظيفة",
@@ -260,7 +260,7 @@ const translations = {
     contactTitle: "هل تبحثون عن مطورة تجمع بين الجوال والخلفية؟",
     contactText:
       "أنا منفتحة على فرص المطورين المبتدئين والتواصل مع مسؤولي التوظيف والمتعاونين. أفضل طريقة للوصول إليّ هي عبر LinkedIn أو GitHub.",
-    location: "المدينة المنورة، المملكة العربية السعودية",
+    location: "المملكة العربية السعودية",
     connectLinkedin: "تواصل عبر LinkedIn",
     visitGithub: "زيارة ملف GitHub",
     footerText: "بُني بعناية وفضول.",
