@@ -77,6 +77,18 @@ const translations = {
     ecommerceDescription:
       "A Flutter storefront with onboarding, product discovery, category browsing, product details, and cart management.",
     mobileProject: "Mobile project",
+    desktopProject: "Desktop project",
+    sakinahTitle: "Sakinah – Islamic Mobile App",
+    sakinahDescription:
+      "An Islamic mobile application built with Flutter and GetX, providing prayer times, Quran reading and audio, Qibla direction, Azkar, Tasbih, prayer tracking, localization, notifications, and location-based Islamic services.",
+    sakinahAlt: "Sakinah Islamic Flutter mobile application",
+    sakinahPreview: "Sakinah project preview",
+    dvldTitle: "DVLD – Driving & Vehicle License Department System",
+    dvldDescription:
+      "A C# and SQL Server desktop management system for driving license services, including applicants, drivers, tests, license issuance, renewals, replacements, and administrative operations using a structured 3-Tier Architecture.",
+    dvldAlt:
+      "DVLD Driving and Vehicle License Department desktop management system",
+    dvldPreview: "DVLD project preview",
     ozzoTitle: "Ozzoma Mobile Project",
     ozzoDescription:
       "An Arabic Flutter experience with onboarding, account subscription, form validation, and verification flows.",
@@ -144,6 +156,40 @@ const translations = {
       "A Flutter shopping experience covering onboarding, catalog discovery, categories, product details, and quantity management in the cart.",
     ozzoDialogText:
       "An Arabic Flutter application demonstrating a guided onboarding journey, subscription data entry, success feedback, and verification-code flows.",
+    sakinahDialogIntro:
+      "A location-aware Islamic companion combining daily worship tools, Quran reading and audio, prayer tracking, and bilingual preferences in a responsive Flutter experience.",
+    dvldDialogIntro:
+      "A Windows desktop system for managing people, drivers, applications, tests, licenses, and department administration through a structured C# and SQL Server solution.",
+    architectureDetails: "Architecture & integration",
+    sakinahArchitecture1: "GetX state management and reusable controllers",
+    sakinahArchitecture2:
+      "Repository pattern with separated responsibilities",
+    sakinahArchitecture3: "Location-based APIs and local persistence",
+    sakinahArchitecture4:
+      "Reusable widgets, caching, and local notifications",
+    sakinahCapability1:
+      "Prayer times, next-prayer countdown, and prayer tracking",
+    sakinahCapability2:
+      "Quran reading with tap-to-play audio recitation",
+    sakinahCapability3: "Qibla direction, Azkar, and Tasbih",
+    sakinahCapability4:
+      "Arabic and English localization with light and dark themes",
+    sakinahCapability5:
+      "Location-based schedules and prayer notifications",
+    dvldArchitecture1:
+      "Presentation, business logic, and data access layers",
+    dvldArchitecture2: "Reusable C# business and data-access classes",
+    dvldArchitecture3:
+      "ADO.NET integration with a relational SQL Server database",
+    dvldArchitecture4:
+      "Search, filtering, users, and permission management",
+    dvldCapability1:
+      "People, applicants, drivers, and license applications",
+    dvldCapability2: "Vision, written, and street test management",
+    dvldCapability3: "License issuance, renewal, and replacement",
+    dvldCapability4:
+      "License detention, release, and international licenses",
+    dvldCapability5: "Administrative operations backed by SQL Server",
   },
   ar: {
     pageTitle: "رقية صداف | مطورة Flutter وASP.NET Core",
@@ -221,6 +267,17 @@ const translations = {
     ecommerceDescription:
       "متجر مبني بـ Flutter يضم شاشات تعريفية واستكشاف المنتجات والتصنيفات وتفاصيل المنتج وإدارة السلة.",
     mobileProject: "مشروع جوال",
+    desktopProject: "مشروع مكتبي",
+    sakinahTitle: "سكينة – تطبيق إسلامي",
+    sakinahDescription:
+      "تطبيق إسلامي للهواتف مبني باستخدام Flutter وGetX، يوفر مواقيت الصلاة حسب الموقع، قراءة القرآن وتشغيل التلاوات، اتجاه القبلة، الأذكار، التسبيح، متابعة الصلوات، الإشعارات، ودعم اللغتين العربية والإنجليزية.",
+    sakinahAlt: "تطبيق سكينة الإسلامي للهواتف المبني باستخدام Flutter",
+    sakinahPreview: "معاينة مشروع سكينة",
+    dvldTitle: "نظام إدارة رخص القيادة والمركبات",
+    dvldDescription:
+      "نظام مكتبي مبني باستخدام C# وSQL Server لإدارة خدمات رخص القيادة، المتقدمين، السائقين، الاختبارات، إصدار وتجديد واستبدال الرخص والعمليات الإدارية، باستخدام بنية 3-Tier Architecture.",
+    dvldAlt: "نظام إدارة رخص القيادة والمركبات المكتبي DVLD",
+    dvldPreview: "معاينة مشروع نظام إدارة رخص القيادة والمركبات",
     ozzoTitle: "مشروع أزوما للجوال",
     ozzoDescription:
       "تجربة Flutter عربية تشمل الشاشات التعريفية والاشتراك والتحقق من البيانات ورمز التأكيد.",
@@ -287,6 +344,29 @@ const translations = {
       "تجربة تسوق مبنية بـ Flutter تشمل الشاشات التعريفية واستكشاف الكتالوج والتصنيفات وتفاصيل المنتجات وإدارة الكميات في السلة.",
     ozzoDialogText:
       "تطبيق Flutter عربي يعرض رحلة تعريفية موجهة وإدخال بيانات الاشتراك ورسائل نجاح ورمز تحقق.",
+    sakinahDialogIntro:
+      "تطبيق إسلامي يعتمد على الموقع ويجمع أدوات العبادة اليومية وقراءة القرآن وتشغيل التلاوات ومتابعة الصلوات والتفضيلات ثنائية اللغة في تجربة Flutter متجاوبة.",
+    dvldDialogIntro:
+      "نظام مكتبي لنظام Windows يدير الأشخاص والسائقين والطلبات والاختبارات والرخص وعمليات القسم من خلال حل منظم باستخدام C# وSQL Server.",
+    architectureDetails: "البنية والتكامل",
+    sakinahArchitecture1: "إدارة الحالة باستخدام GetX ومتحكمات قابلة لإعادة الاستخدام",
+    sakinahArchitecture2: "نمط Repository مع فصل المسؤوليات",
+    sakinahArchitecture3: "واجهات API معتمدة على الموقع وتخزين محلي",
+    sakinahArchitecture4: "عناصر واجهة قابلة لإعادة الاستخدام وتخزين مؤقت وإشعارات محلية",
+    sakinahCapability1: "مواقيت الصلاة والعد التنازلي للصلاة القادمة ومتابعة الصلوات",
+    sakinahCapability2: "قراءة القرآن وتشغيل تلاوة الآية عند الضغط عليها",
+    sakinahCapability3: "اتجاه القبلة والأذكار والتسبيح",
+    sakinahCapability4: "دعم العربية والإنجليزية والوضعين الفاتح والداكن",
+    sakinahCapability5: "جداول الصلاة حسب الموقع وإشعارات الصلوات",
+    dvldArchitecture1: "طبقات العرض ومنطق الأعمال والوصول إلى البيانات",
+    dvldArchitecture2: "فئات C# قابلة لإعادة الاستخدام للأعمال والوصول إلى البيانات",
+    dvldArchitecture3: "تكامل ADO.NET مع قاعدة بيانات SQL Server علائقية",
+    dvldArchitecture4: "البحث والتصفية وإدارة المستخدمين والصلاحيات",
+    dvldCapability1: "إدارة الأشخاص والمتقدمين والسائقين وطلبات الرخص",
+    dvldCapability2: "إدارة اختبارات النظر والاختبار النظري واختبار الشارع",
+    dvldCapability3: "إصدار الرخص وتجديدها واستبدالها",
+    dvldCapability4: "حجز الرخص وفك الحجز والرخص الدولية",
+    dvldCapability5: "عمليات إدارية مدعومة بقاعدة بيانات SQL Server",
   },
 };
 

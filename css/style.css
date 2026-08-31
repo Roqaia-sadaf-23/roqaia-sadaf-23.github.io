@@ -955,6 +955,8 @@ svg {
   margin-top: 1.3rem;
 }
 .project-card {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -984,6 +986,9 @@ svg {
   transform: scale(1.025);
 }
 .project-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 1.7rem;
 }
 .project-card-body p {
@@ -1016,6 +1021,10 @@ svg {
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem 1.35rem;
+}
+.project-card-body .project-actions {
+  margin-top: auto;
+  padding-top: 0.35rem;
 }
 .project-actions .text-button {
   flex: 0 0 auto;
@@ -1318,6 +1327,17 @@ svg {
 }
 .project-gallery-mixed {
   grid-template-columns: 2fr repeat(3, 1fr);
+}
+.project-gallery-placeholder {
+  grid-template-columns: minmax(0, 1fr);
+}
+.project-gallery-placeholder img {
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+.dialog-no-links .dialog-columns {
+  padding-bottom: 2rem;
 }
 .dialog-links {
   display: flex;

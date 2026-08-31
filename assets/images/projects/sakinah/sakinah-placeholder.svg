@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Sakinah mobile application placeholder</title>
+  <desc id="desc">An abstract preview representing a modern Islamic mobile application.</desc>
+  <defs>
+    <linearGradient id="background" x1="80" y1="40" x2="1120" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eef7f5"/>
+      <stop offset="1" stop-color="#dcebe9"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#163c45" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#background)"/>
+  <circle cx="1080" cy="100" r="210" fill="#c9e1dc"/>
+  <circle cx="100" cy="760" r="245" fill="#d3e8e3"/>
+  <g filter="url(#shadow)">
+    <rect x="180" y="105" width="250" height="590" rx="42" fill="#0b2431"/>
+    <rect x="198" y="124" width="214" height="552" rx="30" fill="#f9fcfb"/>
+    <rect x="280" y="137" width="50" height="7" rx="3.5" fill="#9bb5b1"/>
+    <circle cx="305" cy="285" r="72" fill="#d9ece7"/>
+    <path d="M326 230a58 58 0 1 0 38 99 67 67 0 1 1-38-99Z" fill="#2f8179"/>
+    <g fill="#dceae8"><rect x="222" y="398" width="166" height="18" rx="9"/><rect x="222" y="432" width="124" height="12" rx="6"/></g>
+    <g fill="#eaf3f1"><rect x="222" y="486" width="72" height="72" rx="18"/><rect x="316" y="486" width="72" height="72" rx="18"/><rect x="222" y="580" width="166" height="52" rx="16"/></g>
+    <rect x="475" y="70" width="250" height="660" rx="42" fill="#0b2431"/>
+    <rect x="493" y="89" width="214" height="622" rx="30" fill="#ffffff"/>
+    <rect x="575" y="102" width="50" height="7" rx="3.5" fill="#9bb5b1"/>
+    <rect x="518" y="150" width="164" height="124" rx="25" fill="#2f8179"/>
+    <circle cx="600" cy="205" r="34" fill="none" stroke="#d8f0ea" stroke-width="8"/>
+    <path d="M600 179v27l17 12" fill="none" stroke="#d8f0ea" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#d9e8e6"><rect x="518" y="314" width="164" height="14" rx="7"/><rect x="518" y="344" width="116" height="10" rx="5"/></g>
+    <g fill="#eef5f3"><rect x="518" y="395" width="164" height="62" rx="17"/><rect x="518" y="473" width="164" height="62" rx="17"/><rect x="518" y="551" width="164" height="62" rx="17"/></g>
+    <g fill="#79aaa3"><circle cx="546" cy="426" r="10"/><circle cx="546" cy="504" r="10"/><circle cx="546" cy="582" r="10"/></g>
+    <rect x="770" y="105" width="250" height="590" rx="42" fill="#0b2431"/>
+    <rect x="788" y="124" width="214" height="552" rx="30" fill="#f9fcfb"/>
+    <rect x="870" y="137" width="50" height="7" rx="3.5" fill="#9bb5b1"/>
+    <circle cx="895" cy="300" r="94" fill="#e4f0ed"/>
+    <path d="M895 219 928 342l-33-16-33 16Z" fill="#2f8179"/>
+    <circle cx="895" cy="300" r="15" fill="#f9fcfb"/>
+    <g fill="#dceae8"><rect x="812" y="432" width="166" height="18" rx="9"/><rect x="833" y="466" width="124" height="12" rx="6"/></g>
+    <rect x="812" y="527" width="166" height="66" rx="20" fill="#2f8179"/>
+    <circle cx="895" cy="560" r="12" fill="#d8f0ea"/>
+  </g>
+</svg>

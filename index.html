@@ -479,6 +479,100 @@
 
           <div class="project-grid">
             <article class="project-card reveal">
+              <div class="project-card-image">
+                <img
+                  src="assets/images/projects/sakinah/sakinah-placeholder.svg"
+                  alt="Sakinah Islamic Flutter mobile application"
+                  data-i18n-alt="sakinahAlt"
+                  loading="lazy"
+                  width="1200"
+                  height="800"
+                />
+              </div>
+              <div class="project-card-body">
+                <p class="project-type" data-i18n="mobileProject">
+                  Mobile project
+                </p>
+                <h3 data-i18n="sakinahTitle">
+                  Sakinah – Islamic Mobile App
+                </h3>
+                <p data-i18n="sakinahDescription">
+                  An Islamic mobile application built with Flutter and GetX,
+                  providing prayer times, Quran reading and audio, Qibla
+                  direction, Azkar, Tasbih, prayer tracking, localization,
+                  notifications, and location-based Islamic services.
+                </p>
+                <div
+                  class="tech-list"
+                  role="group"
+                  aria-label="Technologies used"
+                  data-i18n-aria="technologiesUsed"
+                >
+                  <span>Flutter</span><span>Dart</span><span>GetX</span
+                  ><span>REST API</span><span>Mobile App</span>
+                </div>
+                <div class="project-actions">
+                  <button
+                    class="text-button project-details"
+                    type="button"
+                    data-dialog="sakinah-dialog"
+                  >
+                    <span data-i18n="viewDetails">View project details</span
+                    ><svg aria-hidden="true" viewBox="0 0 24 24">
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-card-image">
+                <img
+                  src="assets/images/projects/dvld/dvld-placeholder.svg"
+                  alt="DVLD Driving and Vehicle License Department desktop management system"
+                  data-i18n-alt="dvldAlt"
+                  loading="lazy"
+                  width="1200"
+                  height="800"
+                />
+              </div>
+              <div class="project-card-body">
+                <p class="project-type" data-i18n="desktopProject">
+                  Desktop project
+                </p>
+                <h3 data-i18n="dvldTitle">
+                  DVLD – Driving &amp; Vehicle License Department System
+                </h3>
+                <p data-i18n="dvldDescription">
+                  A C# and SQL Server desktop management system for driving
+                  license services, including applicants, drivers, tests,
+                  license issuance, renewals, replacements, and administrative
+                  operations using a structured 3-Tier Architecture.
+                </p>
+                <div
+                  class="tech-list"
+                  role="group"
+                  aria-label="Technologies used"
+                  data-i18n-aria="technologiesUsed"
+                >
+                  <span>C#</span><span>.NET</span><span>WinForms</span
+                  ><span>SQL Server</span><span>3-Tier Architecture</span>
+                </div>
+                <div class="project-actions">
+                  <button
+                    class="text-button project-details"
+                    type="button"
+                    data-dialog="dvld-dialog"
+                  >
+                    <span data-i18n="viewDetails">View project details</span
+                    ><svg aria-hidden="true" viewBox="0 0 24 24">
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal">
               <div class="project-card-image mobile-preview-strip">
                 <img
                   src="assets/images/projects/ecommerce/photo_2_2026-08-05_02-03-56.jpg"
@@ -897,6 +991,170 @@
           data-i18n="viewAdminRepo"
           >View admin dashboard</a
         >
+      </div>
+    </dialog>
+    <dialog
+      class="project-dialog dialog-no-links"
+      id="sakinah-dialog"
+      aria-labelledby="sakinah-dialog-title"
+    >
+      <div class="dialog-head">
+        <div>
+          <p class="project-type" data-i18n="mobileProject">Mobile project</p>
+          <h2 id="sakinah-dialog-title" data-i18n="sakinahTitle">
+            Sakinah – Islamic Mobile App
+          </h2>
+        </div>
+        <button
+          class="dialog-close"
+          type="button"
+          aria-label="Close project details"
+          data-i18n-aria="closeDetails"
+        >
+          ×
+        </button>
+      </div>
+      <p data-i18n="sakinahDialogIntro">
+        A location-aware Islamic companion combining daily worship tools,
+        Quran reading and audio, prayer tracking, and bilingual preferences in
+        a responsive Flutter experience.
+      </p>
+      <div
+        class="project-gallery project-gallery-placeholder"
+        role="group"
+        aria-label="Sakinah project preview"
+        data-i18n-aria="sakinahPreview"
+      >
+        <img
+          src="assets/images/projects/sakinah/sakinah-placeholder.svg"
+          alt="Sakinah Islamic Flutter mobile application"
+          data-i18n-alt="sakinahAlt"
+          loading="lazy"
+          width="1200"
+          height="800"
+        />
+      </div>
+      <div class="dialog-columns">
+        <div>
+          <h3 data-i18n="architectureDetails">Architecture &amp; integration</h3>
+          <ul>
+            <li data-i18n="sakinahArchitecture1">
+              GetX state management and reusable controllers
+            </li>
+            <li data-i18n="sakinahArchitecture2">
+              Repository pattern with separated responsibilities
+            </li>
+            <li data-i18n="sakinahArchitecture3">
+              Location-based APIs and local persistence
+            </li>
+            <li data-i18n="sakinahArchitecture4">
+              Reusable widgets, caching, and local notifications
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 data-i18n="coreCapabilities">Core capabilities</h3>
+          <ul>
+            <li data-i18n="sakinahCapability1">
+              Prayer times, next-prayer countdown, and prayer tracking
+            </li>
+            <li data-i18n="sakinahCapability2">
+              Quran reading with tap-to-play audio recitation
+            </li>
+            <li data-i18n="sakinahCapability3">
+              Qibla direction, Azkar, and Tasbih
+            </li>
+            <li data-i18n="sakinahCapability4">
+              Arabic and English localization with light and dark themes
+            </li>
+            <li data-i18n="sakinahCapability5">
+              Location-based schedules and prayer notifications
+            </li>
+          </ul>
+        </div>
+      </div>
+    </dialog>
+    <dialog
+      class="project-dialog dialog-no-links"
+      id="dvld-dialog"
+      aria-labelledby="dvld-dialog-title"
+    >
+      <div class="dialog-head">
+        <div>
+          <p class="project-type" data-i18n="desktopProject">
+            Desktop project
+          </p>
+          <h2 id="dvld-dialog-title" data-i18n="dvldTitle">
+            DVLD – Driving &amp; Vehicle License Department System
+          </h2>
+        </div>
+        <button
+          class="dialog-close"
+          type="button"
+          aria-label="Close project details"
+          data-i18n-aria="closeDetails"
+        >
+          ×
+        </button>
+      </div>
+      <p data-i18n="dvldDialogIntro">
+        A Windows desktop system for managing people, drivers, applications,
+        tests, licenses, and department administration through a structured C#
+        and SQL Server solution.
+      </p>
+      <div
+        class="project-gallery project-gallery-placeholder"
+        role="group"
+        aria-label="DVLD project preview"
+        data-i18n-aria="dvldPreview"
+      >
+        <img
+          src="assets/images/projects/dvld/dvld-placeholder.svg"
+          alt="DVLD Driving and Vehicle License Department desktop management system"
+          data-i18n-alt="dvldAlt"
+          loading="lazy"
+          width="1200"
+          height="800"
+        />
+      </div>
+      <div class="dialog-columns">
+        <div>
+          <h3 data-i18n="architectureDetails">Architecture &amp; integration</h3>
+          <ul>
+            <li data-i18n="dvldArchitecture1">
+              Presentation, business logic, and data access layers
+            </li>
+            <li data-i18n="dvldArchitecture2">
+              Reusable C# business and data-access classes
+            </li>
+            <li data-i18n="dvldArchitecture3">
+              ADO.NET integration with a relational SQL Server database
+            </li>
+            <li data-i18n="dvldArchitecture4">
+              Search, filtering, users, and permission management
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 data-i18n="coreCapabilities">Core capabilities</h3>
+          <ul>
+            <li data-i18n="dvldCapability1">
+              People, applicants, drivers, and license applications
+            </li>
+            <li data-i18n="dvldCapability2">
+              Vision, written, and street test management
+            </li>
+            <li data-i18n="dvldCapability3">
+              License issuance, renewal, and replacement
+            </li>
+            <li data-i18n="dvldCapability4">
+              License detention, release, and international licenses
+            </li>
+            <li data-i18n="dvldCapability5">
+              Administrative operations backed by SQL Server
+            </li>
+          </ul>
+        </div>
       </div>
     </dialog>
     <dialog
