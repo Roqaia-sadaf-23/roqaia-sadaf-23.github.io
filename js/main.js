@@ -133,6 +133,7 @@ const translations = {
     connectLinkedin: "Connect on LinkedIn",
     visitGithub: "Visit GitHub profile",
     footerText: "Built with care and curiosity.",
+    privacyPolicy: "Sakinah Privacy Policy",
     backToTop: "Back to top",
     closeDetails: "Close project details",
     shifaaDialogIntro:
@@ -321,6 +322,7 @@ const translations = {
     connectLinkedin: "تواصل عبر LinkedIn",
     visitGithub: "زيارة ملف GitHub",
     footerText: "بُني بعناية وفضول.",
+    privacyPolicy: "سياسة خصوصية سكينة",
     backToTop: "العودة إلى الأعلى",
     closeDetails: "إغلاق تفاصيل المشروع",
     shifaaDialogIntro:

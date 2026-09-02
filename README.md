@@ -16,11 +16,14 @@ The website is built with plain HTML, CSS, and JavaScript and is ready to host o
 ```text
 .
 ├── index.html
+├── privacy-policy.html       # Public Arabic/English Sakinah privacy policy
 ├── css/
 │   ├── style.css
-│   └── responsive.css
+│   ├── responsive.css
+│   └── privacy-policy.css
 ├── js/
-│   └── main.js
+│   ├── main.js
+│   └── privacy-policy.js
 ├── assets/
 │   ├── cv/
 │   │   ├── Roqaia-Sadaf-CV.pdf
@@ -50,6 +53,12 @@ python -m http.server 8000
 Then visit `http://localhost:8000/`.
 
 Other static servers, such as the VS Code Live Server extension, work equally well.
+
+## Sakinah privacy policy
+
+The footer links to `privacy-policy.html`, which contains the complete Arabic and English policy even when JavaScript is disabled. It reuses the site's shared styles and theme preference, with responsive reading layouts and direct links to each language.
+
+GitHub Pages serves the root-level file directly at [Sakinah Privacy Policy](https://roqaia-sadaf-23.github.io/privacy-policy.html); no build step or route rewrite is needed. The effective date is 2 September 2026.
 
 ## Adding project screenshots
 

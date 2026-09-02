@@ -1,0 +1,143 @@
+.privacy-page {
+  background: var(--surface-subtle);
+}
+
+.privacy-header {
+  border-color: var(--border);
+  background: var(--header-bg);
+  backdrop-filter: blur(16px);
+}
+
+.privacy-header .header-inner {
+  gap: 1rem;
+}
+
+.privacy-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-inline-start: auto;
+}
+
+.privacy-languages a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.35rem 0.65rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+.privacy-languages a:hover {
+  background: var(--blue-100);
+}
+
+.privacy-header [hidden] {
+  display: none;
+}
+
+.privacy-content {
+  max-width: 880px;
+  padding-block: calc(var(--header-height) + 3rem) 4rem;
+}
+
+.privacy-intro {
+  margin-bottom: 2rem;
+}
+
+.privacy-intro h1 {
+  font-size: clamp(2rem, 5vw, 3.3rem);
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+.privacy-intro h1 span {
+  display: block;
+  font-size: 0.7em;
+  color: var(--text-muted);
+}
+
+.privacy-intro > p:last-child,
+.policy-date {
+  color: var(--text-muted);
+}
+
+.policy-document {
+  margin-block: 1.5rem;
+  padding: clamp(1.25rem, 4vw, 3rem);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-raised);
+  box-shadow: var(--shadow-sm);
+  overflow-wrap: anywhere;
+}
+
+.policy-document[lang="en"] {
+  font-family: Inter, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.policy-document h2 {
+  font-size: clamp(1.45rem, 3.5vw, 2rem);
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.policy-document h3 {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  letter-spacing: normal;
+}
+
+.policy-heading {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.policy-document section + section {
+  margin-top: 1.75rem;
+}
+
+.policy-document p {
+  line-height: 1.9;
+}
+
+.policy-document a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.privacy-home {
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.privacy-page .footer-links {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 390px) {
+  .privacy-header .header-inner {
+    gap: 0.5rem;
+  }
+
+  .privacy-header .control-button {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media print {
+  .privacy-content {
+    max-width: none;
+    padding-block: 0;
+  }
+
+  .policy-document {
+    box-shadow: none;
+  }
+
+  .privacy-home {
+    display: none;
+  }
+}
