@@ -1,10 +1,9 @@
-"use strict";
-
-const translations = {
+export const translations = {
   en: {
-    pageTitle: "Roqaia Sadaf | Flutter & ASP.NET Core Developer",
+    pageTitle:
+      "Roqaia Sadaf | Full-Stack Developer | Angular | Flutter | ASP.NET Core",
     metaDescription:
-      "Portfolio of Roqaia Sadaf, a Flutter and ASP.NET Core developer in  Saudi Arabia.",
+      "Portfolio of Roqaia Sadaf, a Full-Stack Developer in Saudi Arabia specializing in Angular, Flutter, and ASP.NET Core.",
     skipLink: "Skip to main content",
     brandLabel: "Roqaia Sadaf — home",
     primaryNav: "Primary navigation",
@@ -25,7 +24,7 @@ const translations = {
     linkedinProfile: "LinkedIn profile",
     availability: "Available for junior developer opportunities",
     heroGreeting: "Hi, I’m Roqaia Sadaf",
-    heroRole: "Flutter & ASP.NET Core Developer",
+    heroRole: "Full-Stack Developer | Angular | Flutter | ASP.NET Core",
     heroIntro:
       "I build thoughtful Flutter experiences and reliable ASP.NET Core APIs, with a focus on clear architecture, secure integration, and maintainable code.",
     viewProjects: "View My Projects",
@@ -33,9 +32,9 @@ const translations = {
     aboutKicker: "About me",
     aboutTitle: "Building both sides of the experience.",
     aboutLead:
-      "I’m a developer based in Saudi Arabia, focused on Flutter mobile development and ASP.NET Core backend systems.",
+      "I’m a Full-Stack Developer based in Saudi Arabia, building Angular web applications, Flutter mobile experiences, and ASP.NET Core backend systems.",
     aboutBody:
-      "I enjoy turning product ideas into responsive interfaces backed by well-structured APIs. My work is guided by clean architecture, maintainable code, thoughtful user experience, and continuous learning.",
+      "I enjoy turning product ideas into responsive web and mobile interfaces backed by well-structured APIs. My work is guided by clean architecture, maintainable code, thoughtful user experience, and continuous learning.",
     principleArchitecture: "Clean architecture",
     principleUx: "User experience",
     principleIntegration: "API integration",
@@ -43,16 +42,21 @@ const translations = {
     skillsKicker: "Core toolkit",
     skillsTitle: "Technologies I work with",
     skillsIntro:
-      "A practical stack for building mobile products, backend services, and the web experiences around them.",
+      "A practical full-stack toolkit for building web applications, mobile products, backend services, and the data systems behind them.",
+    frontendTitle: "Frontend",
     mobileTitle: "Mobile Development",
     responsiveUi: "Responsive UI",
     stateIntegration: "API integration",
-    backendTitle: "Backend Development",
-    databaseTitle: "Databases",
+    backendTitle: "Backend",
+    databaseTitle: "Database",
     dataModeling: "Data modeling",
     webTitle: "Web Fundamentals",
     accessibility: "Accessibility",
     toolsTitle: "Tools & Workflow",
+    architectureToolsTitle: "Architecture & Tools",
+    restfulApis: "RESTful APIs",
+    cleanArchitecture: "Clean Architecture",
+    gitGithub: "Git & GitHub",
     apiTesting: "API testing",
     projectsKicker: "Selected work",
     projectsTitle: "Featured projects",
@@ -193,9 +197,10 @@ const translations = {
     dvldCapability5: "Administrative operations backed by SQL Server",
   },
   ar: {
-    pageTitle: "رقية صداف | مطورة Flutter وASP.NET Core",
+    pageTitle:
+      "رقية صداف | مطوّرة برمجيات متكاملة | Angular | Flutter | ASP.NET Core",
     metaDescription:
-      "الملف الشخصي لرقية صداف، مطورة Flutter وASP.NET Core في  المملكة العربية السعودية.",
+      "الملف المهني لرقية صداف، مطوّرة برمجيات متكاملة في المملكة العربية السعودية متخصصة في Angular وFlutter وASP.NET Core.",
     skipLink: "تخطي إلى المحتوى الرئيسي",
     brandLabel: "رقية صداف — الرئيسية",
     primaryNav: "التنقل الرئيسي",
@@ -216,7 +221,7 @@ const translations = {
     linkedinProfile: "ملف LinkedIn",
     availability: "متاحة لفرص مطورة مبتدئة",
     heroGreeting: "مرحباً، أنا رقية صداف",
-    heroRole: "مطورة Flutter وASP.NET Core",
+    heroRole: "مطوّرة برمجيات متكاملة | Angular | Flutter | ASP.NET Core",
     heroIntro:
       "أبني تجارب مدروسة باستخدام Flutter وواجهات API موثوقة باستخدام ASP.NET Core، مع اهتمام بالهندسة الواضحة والتكامل الآمن وسهولة صيانة الكود.",
     viewProjects: "استعرض مشاريعي",
@@ -224,9 +229,9 @@ const translations = {
     aboutKicker: "نبذة عني",
     aboutTitle: "أبني التجربة من الواجهة إلى الخادم.",
     aboutLead:
-      "أنا مطورة من المملكة العربية السعودية، أركز على تطوير تطبيقات Flutter وأنظمة الخلفية باستخدام ASP.NET Core.",
+      "أنا مطوّرة برمجيات متكاملة من المملكة العربية السعودية، أبني تطبيقات الويب باستخدام Angular وتجارب الجوال باستخدام Flutter وأنظمة الخلفية باستخدام ASP.NET Core.",
     aboutBody:
-      "أستمتع بتحويل أفكار المنتجات إلى واجهات متجاوبة تدعمها واجهات API منظمة. أسترشد في عملي بالهندسة النظيفة والكود القابل للصيانة وتجربة المستخدم المدروسة والتعلم المستمر.",
+      "أستمتع بتحويل أفكار المنتجات إلى واجهات ويب وجوال متجاوبة تدعمها واجهات API منظمة. أسترشد في عملي بالهندسة النظيفة والكود القابل للصيانة وتجربة المستخدم المدروسة والتعلم المستمر.",
     principleArchitecture: "الهندسة النظيفة",
     principleUx: "تجربة المستخدم",
     principleIntegration: "تكامل API",
@@ -234,16 +239,21 @@ const translations = {
     skillsKicker: "أدواتي الأساسية",
     skillsTitle: "التقنيات التي أعمل بها",
     skillsIntro:
-      "حزمة عملية لبناء منتجات الجوال وخدمات الخلفية وتجارب الويب المحيطة بها.",
+      "حزمة متكاملة وعملية لبناء تطبيقات الويب ومنتجات الجوال وخدمات الخلفية وأنظمة البيانات الداعمة لها.",
+    frontendTitle: "تطوير الواجهات الأمامية",
     mobileTitle: "تطوير الجوال",
     responsiveUi: "واجهات متجاوبة",
     stateIntegration: "تكامل API",
-    backendTitle: "تطوير الخلفية",
+    backendTitle: "الخلفية",
     databaseTitle: "قواعد البيانات",
     dataModeling: "نمذجة البيانات",
     webTitle: "أساسيات الويب",
     accessibility: "سهولة الوصول",
     toolsTitle: "الأدوات وسير العمل",
+    architectureToolsTitle: "الهندسة والأدوات",
+    restfulApis: "واجهات RESTful API",
+    cleanArchitecture: "الهندسة النظيفة",
+    gitGithub: "Git وGitHub",
     apiTesting: "اختبار API",
     projectsKicker: "أعمال مختارة",
     projectsTitle: "المشاريع المميزة",
@@ -370,229 +380,7 @@ const translations = {
     dvldCapability4: "حجز الرخص وفك الحجز والرخص الدولية",
     dvldCapability5: "عمليات إدارية مدعومة بقاعدة بيانات SQL Server",
   },
-};
+} as const;
 
-const root = document.documentElement;
-const header = document.getElementById("site-header");
-const languageButton = document.getElementById("language-toggle");
-const themeButton = document.getElementById("theme-toggle");
-const menuButton = document.getElementById("menu-toggle");
-const mobileNav = document.getElementById("mobile-nav");
-const backToTop = document.getElementById("back-to-top");
-const metaDescription = document.querySelector('meta[name="description"]');
-const metaThemeColor = document.querySelector('meta[name="theme-color"]');
-
-function readPreference(key) {
-  try {
-    return localStorage.getItem(key);
-  } catch (_) {
-    return null;
-  }
-}
-
-function savePreference(key, value) {
-  try {
-    localStorage.setItem(key, value);
-  } catch (_) {
-    /* Preferences remain session-only if storage is unavailable. */
-  }
-}
-
-let currentLanguage =
-  readPreference("portfolio-language") === "ar" ? "ar" : "en";
-const savedTheme = readPreference("portfolio-theme");
-let currentTheme =
-  savedTheme === "dark" || savedTheme === "light"
-    ? savedTheme
-    : window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
-
-function translatePage(language) {
-  const copy = translations[language];
-  root.lang = language;
-  root.dir = language === "ar" ? "rtl" : "ltr";
-  document.title = copy.pageTitle;
-  metaDescription.setAttribute("content", copy.metaDescription);
-  document
-    .querySelector('meta[property="og:locale"]')
-    .setAttribute("content", language === "ar" ? "ar_SA" : "en_US");
-
-  document.querySelectorAll("[data-i18n]").forEach((element) => {
-    const value = copy[element.dataset.i18n];
-    if (value) element.textContent = value;
-  });
-  document.querySelectorAll("[data-i18n-aria]").forEach((element) => {
-    const value = copy[element.dataset.i18nAria];
-    if (value) element.setAttribute("aria-label", value);
-  });
-  document.querySelectorAll("[data-i18n-title]").forEach((element) => {
-    const value = copy[element.dataset.i18nTitle];
-    if (value) element.title = value;
-  });
-  document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
-    const value = copy[element.dataset.i18nAlt];
-    if (value) element.alt = value;
-  });
-
-  languageButton.querySelector(".language-current").textContent =
-    language === "en" ? "AR" : "EN";
-  languageButton.setAttribute(
-    "aria-label",
-    language === "en" ? copy.switchArabic : copy.switchEnglish,
-  );
-  languageButton.title =
-    language === "en" ? copy.switchArabic : copy.switchEnglish;
-  menuButton.setAttribute(
-    "aria-label",
-    menuButton.getAttribute("aria-expanded") === "true"
-      ? copy.closeMenu
-      : copy.openMenu,
-  );
-  currentLanguage = language;
-  savePreference("portfolio-language", language);
-}
-
-function applyTheme(theme) {
-  root.dataset.theme = theme;
-  currentTheme = theme;
-  const copy = translations[currentLanguage];
-  const isDark = theme === "dark";
-  themeButton.setAttribute(
-    "aria-label",
-    isDark ? copy.switchLight : copy.switchDark,
-  );
-  themeButton.title = isDark ? copy.switchLight : copy.switchDark;
-  metaThemeColor.setAttribute("content", isDark ? "#09172a" : "#f7f9fc");
-  savePreference("portfolio-theme", theme);
-}
-
-function closeMobileMenu(restoreFocus = false) {
-  menuButton.setAttribute("aria-expanded", "false");
-  menuButton.setAttribute("aria-label", translations[currentLanguage].openMenu);
-  mobileNav.hidden = true;
-  header.classList.remove("menu-open");
-  document.body.style.overflow = "";
-  if (restoreFocus) menuButton.focus();
-}
-
-function openMobileMenu() {
-  menuButton.setAttribute("aria-expanded", "true");
-  menuButton.setAttribute(
-    "aria-label",
-    translations[currentLanguage].closeMenu,
-  );
-  mobileNav.hidden = false;
-  header.classList.add("menu-open");
-  document.body.style.overflow = "hidden";
-  mobileNav.querySelector("a").focus();
-}
-
-languageButton.addEventListener("click", () => {
-  translatePage(currentLanguage === "en" ? "ar" : "en");
-  applyTheme(currentTheme);
-});
-themeButton.addEventListener("click", () =>
-  applyTheme(currentTheme === "light" ? "dark" : "light"),
-);
-menuButton.addEventListener("click", () =>
-  menuButton.getAttribute("aria-expanded") === "true"
-    ? closeMobileMenu()
-    : openMobileMenu(),
-);
-mobileNav
-  .querySelectorAll("a")
-  .forEach((link) => link.addEventListener("click", () => closeMobileMenu()));
-
-document.addEventListener("keydown", (event) => {
-  if (
-    event.key === "Escape" &&
-    menuButton.getAttribute("aria-expanded") === "true"
-  )
-    closeMobileMenu(true);
-});
-
-window.addEventListener("resize", () => {
-  if (
-    window.innerWidth > 860 &&
-    menuButton.getAttribute("aria-expanded") === "true"
-  )
-    closeMobileMenu();
-});
-
-function updateScrollUi() {
-  const scrolled = window.scrollY > 18;
-  header.classList.toggle("scrolled", scrolled);
-  backToTop.classList.toggle("visible", window.scrollY > 650);
-}
-window.addEventListener("scroll", updateScrollUi, { passive: true });
-backToTop.addEventListener("click", () =>
-  window.scrollTo({ top: 0, behavior: "smooth" }),
-);
-
-const sections = [...document.querySelectorAll("main section[id]")].filter(
-  (section) => section.id !== "home",
-);
-const navLinks = document.querySelectorAll("[data-section]");
-const sectionObserver = new IntersectionObserver(
-  (entries) => {
-    const visible = entries
-      .filter((entry) => entry.isIntersecting)
-      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-    if (!visible) return;
-    navLinks.forEach((link) => {
-      const active = link.dataset.section === visible.target.id;
-      link.classList.toggle("active", active);
-      if (active) link.setAttribute("aria-current", "location");
-      else link.removeAttribute("aria-current");
-    });
-  },
-  { rootMargin: "-25% 0px -55%", threshold: [0.05, 0.2, 0.5] },
-);
-sections.forEach((section) => sectionObserver.observe(section));
-
-if ("IntersectionObserver" in window) {
-  const revealObserver = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.08, rootMargin: "0px 0px -35px" },
-  );
-  document
-    .querySelectorAll(".reveal")
-    .forEach((element) => revealObserver.observe(element));
-} else {
-  document
-    .querySelectorAll(".reveal")
-    .forEach((element) => element.classList.add("is-visible"));
-}
-
-document.querySelectorAll(".project-details").forEach((button) => {
-  button.addEventListener("click", () =>
-    document.getElementById(button.dataset.dialog).showModal(),
-  );
-});
-document.querySelectorAll(".project-dialog").forEach((dialog) => {
-  dialog
-    .querySelector(".dialog-close")
-    .addEventListener("click", () => dialog.close());
-  dialog.addEventListener("click", (event) => {
-    const rect = dialog.getBoundingClientRect();
-    const outside =
-      event.clientX < rect.left ||
-      event.clientX > rect.right ||
-      event.clientY < rect.top ||
-      event.clientY > rect.bottom;
-    if (outside) dialog.close();
-  });
-});
-
-document.getElementById("current-year").textContent = new Date().getFullYear();
-translatePage(currentLanguage);
-applyTheme(currentTheme);
-updateScrollUi();
+export type Language = keyof typeof translations;
+export type TranslationKey = keyof (typeof translations)['en'];
