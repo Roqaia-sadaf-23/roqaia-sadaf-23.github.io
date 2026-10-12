@@ -22,7 +22,7 @@
               { "glob": "*.css", "input": "css", "output": "css" },
               { "glob": "privacy-policy.js", "input": "js", "output": "js" }
             ],
-            "styles": ["css/style.css", "css/responsive.css"]
+            "styles": []
           },
           "configurations": {
             "production": {

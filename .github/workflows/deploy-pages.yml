@@ -29,6 +29,15 @@ jobs:
         run: npm ci
       - name: Build Angular application
         run: npm run build
+      - name: Verify Pages artifact
+        shell: bash
+        run: |
+          test -f dist/portfolio/browser/index.html
+          test -f dist/portfolio/browser/css/style.css
+          test -f dist/portfolio/browser/css/responsive.css
+          test -f dist/portfolio/browser/main-*.js
+          grep -q 'href="css/style.css"' dist/portfolio/browser/index.html
+          grep -q 'href="css/responsive.css"' dist/portfolio/browser/index.html
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
