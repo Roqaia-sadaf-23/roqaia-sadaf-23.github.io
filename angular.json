@@ -19,7 +19,7 @@
             "assets": [
               { "glob": "**/*", "input": "assets", "output": "assets" },
               { "glob": "privacy-policy.html", "input": ".", "output": "." },
-              { "glob": "privacy-policy.css", "input": "css", "output": "css" },
+              { "glob": "*.css", "input": "css", "output": "css" },
               { "glob": "privacy-policy.js", "input": "js", "output": "js" }
             ],
             "styles": ["css/style.css", "css/responsive.css"]
